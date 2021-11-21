@@ -1,5 +1,31 @@
-Create a .env with these variables from your twitter developer account:
+## Configure
 
-TWITTER_CONSUMER_KEY = xxx
-TWITTER_CONSUMER_SECRET = xxx
-TWITTER_BEARER_TOKEN = xxx
+#1 Generate Twitter API Keys and Tokens
+
+Visit this page and follow these instructions
+
+#2 Create .env file
+
+Create a .env file in the root of your project and add your keys and token
+
+TWITTER_CONSUMER_KEY = <add here>
+TWITTER_CONSUMER_SECRET = <add here>
+TWITTER_BEARER_TOKEN = <add here>
+
+## Scripts
+
+#Random retweeter
+
+Edit the tweet_id in random-replier.js
+
+Run the script from your terminal:
+
+node random-replier.js
+
+#Random retweeter
+
+Edit the tweet_id in random-retweeter.js
+
+Run the script from your terminal:
+
+node random-retweeter.js
